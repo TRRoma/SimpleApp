@@ -165,23 +165,23 @@ header h1 {
 
 /* Todo form */
 
-.todo-form {
+#todo-form {
     display: flex;
     background-color: #FAFAFA;
     border-top: 1px solid rgba(0,0,0,.1);
     padding: 10px;
 }
 
-.todo-form input {
+#todo-form input {
     flex: 1;
     outline: none;
     transition: all .2s;
 }
 
-.todo-form input:focus {
+#todo-form input:focus {
     border: 1px solid #f0db4f;
 }
 
-.todo-form button {
+#todo-form button {
     margin-left: 10px;
 }
